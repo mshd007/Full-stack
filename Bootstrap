@@ -1,0 +1,171 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Bean Cafe</title>
+
+    <!-- Bootstrap CSS -->
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css" rel="stylesheet">
+
+    <style>
+        body{
+            background-color:#f8f9fa;
+        }
+
+        .hero{
+            background-color:#6f4e37;
+            color:white;
+            text-align:center;
+            padding:60px;
+        }
+
+        .menu-card{
+            margin-bottom:20px;
+        }
+
+        footer{
+            background-color:#343a40;
+            color:white;
+            text-align:center;
+            padding:15px;
+            margin-top:30px;
+        }
+    </style>
+</head>
+<body>
+
+    <!-- Navigation -->
+
+    <nav class="navbar navbar-expand-lg navbar-dark bg-dark">
+        <div class="container">
+            <a class="navbar-brand" href="#">Bean Cafe</a>
+
+            <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarMenu">
+                <span class="navbar-toggler-icon"></span>
+            </button>
+
+            <div class="collapse navbar-collapse" id="navbarMenu">
+                <ul class="navbar-nav ms-auto">
+                    <li class="nav-item">
+                        <a class="nav-link" href="#about">About</a>
+                    </li>
+
+                    <li class="nav-item">
+                        <a class="nav-link" href="#menu">Menu</a>
+                    </li>
+
+                    <li class="nav-item">
+                        <a class="nav-link" href="#contact">Contact</a>
+                    </li>
+                </ul>
+            </div>
+        </div>
+    </nav>
+
+    <!-- Hero Section -->
+
+    <div class="hero">
+        <h1>Welcome to Bean Cafe</h1>
+        <p>Fresh Coffee, Good Mood and Great Conversations.</p>
+
+        <button class="btn btn-light">
+            View Menu
+        </button>
+    </div>
+
+    <!-- About Section -->
+
+    <section class="container mt-5" id="about">
+        <h2>About Our Cafe</h2>
+
+        <p>
+            Bean Cafe is a small coffee shop that serves different types of coffee,
+            snacks and desserts. We started this cafe because we wanted a place
+            where people could relax, study and enjoy quality drinks.
+        </p>
+    </section>
+
+    <!-- Menu Section -->
+
+    <section class="container mt-5" id="menu">
+
+        <h2 class="mb-4">Popular Items</h2>
+
+        <div class="row">
+
+            <div class="col-md-4">
+                <div class="card menu-card">
+                    <div class="card-body">
+                        <h4>Espresso</h4>
+                        <p>Strong and rich coffee.</p>
+                        <p><strong>$3</strong></p>
+                    </div>
+                </div>
+            </div>
+
+            <div class="col-md-4">
+                <div class="card menu-card">
+                    <div class="card-body">
+                        <h4>Cappuccino</h4>
+                        <p>Made with espresso and milk foam.</p>
+                        <p><strong>$4</strong></p>
+                    </div>
+                </div>
+            </div>
+
+            <div class="col-md-4">
+                <div class="card menu-card">
+                    <div class="card-body">
+                        <h4>Chocolate Cake</h4>
+                        <p>Fresh homemade cake.</p>
+                        <p><strong>$5</strong></p>
+                    </div>
+                </div>
+            </div>
+
+        </div>
+
+    </section>
+
+    <!-- Contact Form -->
+
+    <section class="container mt-5" id="contact">
+
+        <h2>Contact Us</h2>
+
+        <form>
+
+            <div class="mb-3">
+                <label class="form-label">Name</label>
+                <input type="text" class="form-control">
+            </div>
+
+            <div class="mb-3">
+                <label class="form-label">Email</label>
+                <input type="email" class="form-control">
+            </div>
+
+            <div class="mb-3">
+                <label class="form-label">Message</label>
+                <textarea class="form-control" rows="4"></textarea>
+            </div>
+
+            <button class="btn btn-primary">
+                Send
+            </button>
+
+        </form>
+
+    </section>
+
+    <!-- Footer -->
+
+    <footer>
+        <p>2026 Bean Cafe | Student Project</p>
+    </footer>
+
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js"></script>
+
+</body>
+</html>
